@@ -48,6 +48,29 @@ body {
     text-decoration: none;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+}
+
+.nav-team-link {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 14px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-team-link:hover {
+    background: #fff;
+    color: #000;
+}
+
 .nav-book-demo {
     display: inline-block;
     background: #968cf4;
@@ -307,6 +330,31 @@ body {
 
 .book-nav {
     display: none;
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #0a1628;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+.book-nav:hover {
+    background: #fff;
+}
+.book-nav.prev {
+    left: 8px;
+}
+.book-nav.next {
+    right: 8px;
 }
 
 .page-indicator {
@@ -627,6 +675,17 @@ footer {
         font-size: 1.2rem;
     }
 
+    .nav-actions {
+        gap: 0.5rem;
+    }
+
+    .nav-team-link,
+    .nav-book-demo {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        border-radius: 12px;
+    }
+
     .hero {
         padding: 120px 0 80px;
         min-height: 70vh;
@@ -683,6 +742,12 @@ footer {
 
     .book-container {
         min-height: 320px;
+    }
+
+    .book-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .how-it-works,

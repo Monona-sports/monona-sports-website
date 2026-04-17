@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team | Monona Coach</title>
+    <style>
+        :root {
+            --bg-dark: #0a1628;
+            --bg-mid: #0d2137;
+            --bg-card: rgba(255, 255, 255, 0.06);
+            --text-main: #e0e0e0;
+            --text-strong: #ffffff;
+            --link: #9bc1ff;
+            --border: rgba(255, 255, 255, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(180deg, var(--bg-mid) 0%, var(--bg-dark) 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: min(100%, 980px);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .team-header {
+            padding: 48px 0 24px;
+            text-align: center;
+        }
+
+        .team-header h1 {
+            color: var(--text-strong);
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-bottom: 12px;
+            letter-spacing: 0.4px;
+        }
+
+        .team-header p {
+            font-size: 1.05rem;
+            opacity: 0.9;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            padding: 16px 0 32px;
+        }
+
+        .team-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            min-height: 170px;
+        }
+
+        .member-name {
+            color: var(--text-strong);
+            font-size: 1.55rem;
+            margin-bottom: 8px;
+            line-height: 1.25;
+        }
+
+        .member-role,
+        .member-major {
+            font-size: 1.45rem;
+            line-height: 1.25;
+        }
+
+        .back-home {
+            display: block;
+            width: fit-content;
+            margin: 6px auto 48px;
+            color: var(--link);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.02rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+
+        .back-home:hover {
+            border-color: var(--link);
+        }
+
+        @media (max-width: 768px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .team-header {
+                padding-top: 36px;
+            }
+
+            .team-card {
+                padding: 20px;
+                min-height: 140px;
+            }
+
+            .member-name {
+                font-size: 1.35rem;
+            }
+
+            .member-role,
+            .member-major {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="team-header">
+            <h1>Team</h1>
+        </header>
+
+        <section class="team-grid" aria-label="Team members">
+            <article class="team-card">
+                <h2 class="member-name">Ti Wu (Diego)</h2>
+                <p class="member-role">Co-Founder</p>
+                <img src="images/diegoProfile.png" alt="Diego Wu" style="width: 100%; height: auto; border-radius: 8px; margin-top: 12px;">
+            </article>
+
+            <article class="team-card">
+                <h2 class="member-name">Raphael (Hyuntaek) Oh</h2>
+                <p class="member-role">Co-Founder</p>
+                <img src="images/raphaelProfile.png" alt="Raphael Oh" style="width: 100%; height: auto; border-radius: 8px; margin-top: 12px;">
+            </article>
+        </section>
+
+        <a class="back-home" href="index.html">Back to Home</a>
+    </main>
+</body>
+</html>

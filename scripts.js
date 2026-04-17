@@ -52,7 +52,7 @@ function setupTypewriter() {
     if (!line1El || !line2El) return;
 
     const line1 = 'Achieve Your Dream Form';
-    const line2 = 'Monona.ai analyzes your shooting form and matches it against Pro Players';
+    const line2 = 'Monona Coach analyzes your shooting form and matches it against Pro Players';
     const charDelay = 55;
     const pauseBetweenLines = 400;
 
@@ -159,6 +159,25 @@ function setupImageCarousel() {
                 }
             }
         });
+
+        // Touch swipe support (mobile)
+        let touchStartX = 0;
+        category.addEventListener('touchstart', function(e) {
+            touchStartX = e.touches[0].clientX;
+        }, { passive: true });
+        category.addEventListener('touchend', function(e) {
+            if (!e.changedTouches[0]) return;
+            const touchEndX = e.changedTouches[0].clientX;
+            const deltaX = touchStartX - touchEndX;
+            if (Math.abs(deltaX) > 50) {
+                const categoryIndex = parseInt(container.dataset.category);
+                if (deltaX > 0) {
+                    slideToNextImage(categoryIndex);
+                } else {
+                    slideToPrevImage(categoryIndex);
+                }
+            }
+        }, { passive: true });
         
         // Button clicks
         if (prevBtn) {
