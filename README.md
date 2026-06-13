@@ -14,7 +14,7 @@ Built as a **static site** (HTML, CSS, vanilla JavaScript) and hosted on **GitHu
 
 | Page | Path | Description |
 |------|------|-------------|
-| Home | `index.html` | Hero, feature carousels, download links |
+| Home | `index.html` | Hero, feature showcase, how-it-works, download links |
 | Book a demo | `book-demo.html` | Calendly scheduling embed |
 | Team | `team.html` | Co-founders and LinkedIn links |
 | Privacy Notice | `privacy.html` | App and website privacy policy |
@@ -29,11 +29,11 @@ Built as a **static site** (HTML, CSS, vanilla JavaScript) and hosted on **GitHu
 ├── privacy.html        # Privacy notice
 ├── linktree/           # Link-in-bio style page
 ├── styles.css          # Global styles
-├── scripts.js          # Home page interactions (carousel, typewriter, nav)
+├── scripts.js          # Home page interactions (scroll reveal, nav)
 ├── analytics.js        # Google Analytics 4 + event tracking
 ├── cookie-consent.js   # Cookie consent banner
 ├── images/             # Logos and team photos
-└── app_images/         # App screenshot assets (referenced from index.html)
+└── app_images/         # In-app screenshots used on homepage
 ```
 
 ## Local development
