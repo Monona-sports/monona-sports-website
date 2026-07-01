@@ -3,7 +3,87 @@ document.addEventListener('DOMContentLoaded', function() {
     setupNavbarScrollEffect();
     setupScrollReveal();
     setupMobileNav();
+    setupHeroVideo();
 });
+
+function setupHeroVideo() {
+    const video = document.querySelector('.hero-promo-video');
+    const overlay = document.querySelector('.hero-video-overlay');
+    const hero = document.querySelector('#home.hero');
+    if (!video) return;
+
+    let wasPlaying = false;
+    let heroInView = true;
+    let pageVisible = !document.hidden;
+    let windowFocused = document.hasFocus();
+
+    function hideOverlay() {
+        if (overlay) overlay.classList.remove('visible');
+    }
+
+    function showOverlay() {
+        if (overlay) overlay.classList.add('visible');
+    }
+
+    function shouldPlay() {
+        return wasPlaying && heroInView && pageVisible && windowFocused;
+    }
+
+    function updatePlayback() {
+        if (shouldPlay()) {
+            video.play().then(hideOverlay).catch(function() {
+                showOverlay();
+            });
+        } else if (!video.paused) {
+            video.pause();
+        }
+    }
+
+    function tryPlay() {
+        video.muted = false;
+        return video.play().then(function() {
+            wasPlaying = true;
+            hideOverlay();
+        }).catch(function() {
+            showOverlay();
+        });
+    }
+
+    video.addEventListener('playing', function() {
+        wasPlaying = true;
+        hideOverlay();
+    });
+
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            tryPlay();
+        });
+    }
+
+    if (hero) {
+        new IntersectionObserver(function(entries) {
+            heroInView = entries[0].isIntersecting;
+            updatePlayback();
+        }, { threshold: 0 }).observe(hero);
+    }
+
+    document.addEventListener('visibilitychange', function() {
+        pageVisible = !document.hidden;
+        updatePlayback();
+    });
+
+    window.addEventListener('blur', function() {
+        windowFocused = false;
+        updatePlayback();
+    });
+
+    window.addEventListener('focus', function() {
+        windowFocused = true;
+        updatePlayback();
+    });
+
+    tryPlay();
+}
 
 function setupSmoothScrolling() {
     const links = document.querySelectorAll('a[href^="#"]');

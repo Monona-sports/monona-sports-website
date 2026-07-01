@@ -108,7 +108,14 @@ body {
 }
 
 .logo img {
-    height: 50px;
+    height: 56px;
+    width: 56px;
+    padding: 8px;
+    border-radius: 50%;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(46, 196, 182, 0.45);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
 .logo-text {
@@ -263,18 +270,59 @@ body {
 }
 
 .phone-screen {
+    position: relative;
     border-radius: 28px;
     overflow: hidden;
     background: #000;
     aspect-ratio: 9 / 19.5;
 }
 
-.phone-screen img {
+.phone-screen img,
+.hero-promo-video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: top center;
     display: block;
+}
+
+.hero-video-overlay {
+    position: absolute;
+    inset: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    border: none;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background 0.2s;
+    z-index: 2;
+}
+
+.hero-video-overlay.visible {
+    display: flex;
+}
+
+.hero-video-overlay:hover {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-video-overlay i {
+    font-size: 2rem;
+    color: var(--accent);
+}
+
+.hero-video-overlay span {
+    max-width: 140px;
+    line-height: 1.4;
 }
 
 .phone-caption {
@@ -461,6 +509,39 @@ body {
     color: var(--text-main);
     line-height: 1.75;
     font-size: 1.05rem;
+}
+
+.feature-badge {
+    display: inline-block;
+    background: rgba(255, 140, 66, 0.2);
+    color: var(--highlight);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    margin-bottom: 0.75rem;
+}
+
+.feature-list {
+    margin-top: 1.25rem;
+    padding-left: 1.25rem;
+    color: var(--text-main);
+}
+
+.feature-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.65;
+    font-size: 0.98rem;
+}
+
+.feature-list strong {
+    color: var(--text-strong);
+}
+
+.feature-visual {
+    display: flex;
+    justify-content: center;
 }
 
 .reveal {
@@ -750,7 +831,9 @@ footer {
     }
 
     .logo img {
-        height: 40px;
+        height: 48px;
+        width: 48px;
+        padding: 6px;
     }
 
     .logo-text {
@@ -809,6 +892,22 @@ footer {
     .feature-icon-grid {
         grid-template-columns: 1fr;
         margin-bottom: 3rem;
+    }
+
+    .feature-row,
+    .feature-row-reverse {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .feature-row-reverse .feature-copy,
+    .feature-row-reverse .feature-visual {
+        order: unset;
+    }
+
+    .feature-visual {
+        order: -1;
     }
 
     .app-preview-grid {
