@@ -460,6 +460,49 @@ body {
     font-weight: 700;
 }
 
+.testimonials {
+    padding: 80px 0;
+    background: var(--bg-mid);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+}
+
+.testimonial-card {
+    margin: 0;
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 1.75rem;
+}
+
+.testimonial-icon {
+    color: var(--accent);
+    font-size: 1.25rem;
+    opacity: 0.7;
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.testimonial-quote {
+    margin: 0;
+    color: var(--text-main);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.testimonial-author {
+    margin-top: 1rem;
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
 .features {
     padding: 100px 0;
     background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-section) 50%, var(--bg-dark) 100%);
@@ -782,6 +825,12 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
     .app-preview-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 2.5rem;
@@ -919,6 +968,11 @@ footer {
         max-width: 200px;
     }
 
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials,
     .features,
     .how-it-works,
     .download {
