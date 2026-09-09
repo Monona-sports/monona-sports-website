@@ -274,7 +274,8 @@ body {
     border-radius: 28px;
     overflow: hidden;
     background: #000;
-    aspect-ratio: 9 / 19.5;
+    /* Match app_promo_liveshoot.mp4 (886×1920) */
+    aspect-ratio: 886 / 1920;
 }
 
 .phone-screen img,
@@ -282,7 +283,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top center;
+    object-position: center center;
     display: block;
 }
 
@@ -735,6 +736,80 @@ body {
     font-size: 1rem;
 }
 
+.live-shoot {
+    padding: 100px 0;
+    background:
+        radial-gradient(ellipse 70% 50% at 50% 0%, rgba(46, 196, 182, 0.12) 0%, transparent 60%),
+        var(--bg-dark);
+}
+
+.live-shoot-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.mo-callout {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.75rem 2rem;
+    background: var(--accent-muted);
+    border: 1px solid rgba(46, 196, 182, 0.3);
+    border-radius: 16px;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.mo-callout-img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.mo-callout-copy h3 {
+    font-size: 1.5rem;
+    color: var(--text-strong);
+    margin-bottom: 0.5rem;
+}
+
+.mo-callout-copy p {
+    color: var(--text-main);
+    line-height: 1.7;
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+.mo-section {
+    padding: 100px 0;
+    background: var(--bg-mid);
+}
+
+.mo-section h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--text-strong);
+    margin-bottom: 1rem;
+}
+
+.mo-section .mo-callout {
+    margin-top: 3rem;
+}
+
+.progress-section {
+    padding: 100px 0;
+    background: var(--bg-dark);
+}
+
+.progress-section h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--text-strong);
+    margin-bottom: 1rem;
+}
+
 .why-monona {
     padding: 100px 0 60px;
     background: var(--bg-mid);
@@ -1003,6 +1078,10 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .live-shoot-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .audience-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1125,11 +1204,30 @@ footer {
         margin-bottom: 3rem;
     }
 
+    .live-shoot-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .mo-callout {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        gap: 1.25rem;
+    }
+
+    .mo-callout-img {
+        width: 120px;
+        height: 120px;
+    }
+
     .audience-grid {
         grid-template-columns: 1fr;
     }
 
     .why-monona,
+    .live-shoot,
+    .mo-section,
+    .progress-section,
     .who-its-for,
     .compare {
         padding: 60px 0;

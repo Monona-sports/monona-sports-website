@@ -1,10 +1,11 @@
 # Monona Coach
 
-> Find why your shot is inconsistent, compare mechanics to pro forms, and get drills for release timing, balance, elbow path, and follow-through. Free on iOS.
+> Live Shoot with Mo: realtime release feedback, chat that knows every shot, and progress tracking that stays with you. Free AI basketball shooting coach on iOS.
 
 ## Product
 
-- [Homepage](https://monona-sports.com/): Product overview, form analysis, testimonials, FAQ, and download.
+- [Homepage - Live Shoot + Mo](https://monona-sports.com/): Realtime Live Shoot, Mo chat context, activity progress tracking.
+- [Pro Player Comparison](https://monona-sports.com/pro-comparison.html): Compare form to 20+ NBA players with similarity scores and analytics.
 - [Download on iOS](https://apps.apple.com/us/app/monona-coach/id6754575963): Free Monona Coach app on the Apple App Store.
 
 ## Site pages
@@ -15,17 +16,16 @@
 
 ## Homepage sections
 
-- [Fix your form](https://monona-sports.com/#why-monona): AI video analysis to find why your shot is inconsistent.
-- [Features](https://monona-sports.com/#features): NBA comparison, AI coaching, personalized drills, and analytics.
-- [Who it's for](https://monona-sports.com/#who-its-for): Players, parents, trainers, and AAU coaches.
-- [How it works](https://monona-sports.com/#how-it-works): Record, analyze, compare, and improve in four steps.
-- [Compare options](https://monona-sports.com/#compare): AI shooting coach vs shot tracker vs human coach.
-- [FAQ](https://monona-sports.com/#faq): Common questions about Monona Coach as an AI basketball shooting coach.
+- [Hero / Live Shoot](https://monona-sports.com/): Featured Live Shoot promo video.
+- [Live Shoot details](https://monona-sports.com/#live-shoot): Realtime cues, Talk to Mo, phase replay, and session review.
+- [Mo](https://monona-sports.com/#mo): Chat companion with context for every shot and improvement.
+- [Progress](https://monona-sports.com/#progress): Activity tracking, streaks, goals, live shots by day.
+- [FAQ](https://monona-sports.com/#faq): Live Shoot and Mo questions.
 - [Download](https://monona-sports.com/#download): Get the free iOS app.
 
 ## Contact and social
 
 - [Support](mailto:support@monona-sports.com): support@monona-sports.com
-- [Instagram](https://www.instagram.com/monona_coach/): @monona_coach
+- [Instagram](https://www.instagram.com/trymononacoach/): @trymononacoach
 - [TikTok](https://www.tiktok.com/@monona.coach.app): @monona.coach.app
 - [Discord](https://discord.gg/qnTrdxnuF7): Community server

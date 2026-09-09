@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     setupNavbarScrollEffect();
     setupScrollReveal();
     setupMobileNav();
-    setupHeroVideo();
+    setupPromoVideo('.hero-promo-video', '.hero-video-overlay', '#home.hero');
 });
 
-function setupHeroVideo() {
-    const video = document.querySelector('.hero-promo-video');
-    const overlay = document.querySelector('.hero-video-overlay');
-    const hero = document.querySelector('#home.hero');
+function setupPromoVideo(videoSelector, overlaySelector, sectionSelector) {
+    const video = document.querySelector(videoSelector);
+    const overlay = document.querySelector(overlaySelector);
+    const section = document.querySelector(sectionSelector);
     if (!video) return;
 
     let wasPlaying = false;
-    let heroInView = true;
+    let sectionInView = true;
     let pageVisible = !document.hidden;
     let windowFocused = document.hasFocus();
 
@@ -26,7 +26,7 @@ function setupHeroVideo() {
     }
 
     function shouldPlay() {
-        return wasPlaying && heroInView && pageVisible && windowFocused;
+        return wasPlaying && sectionInView && pageVisible && windowFocused;
     }
 
     function updatePlayback() {
@@ -60,11 +60,11 @@ function setupHeroVideo() {
         });
     }
 
-    if (hero) {
+    if (section) {
         new IntersectionObserver(function(entries) {
-            heroInView = entries[0].isIntersecting;
+            sectionInView = entries[0].isIntersecting;
             updatePlayback();
-        }, { threshold: 0 }).observe(hero);
+        }, { threshold: 0 }).observe(section);
     }
 
     document.addEventListener('visibilitychange', function() {

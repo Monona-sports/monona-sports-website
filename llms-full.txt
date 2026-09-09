@@ -2,19 +2,42 @@
 
 # Monona Coach
 
-Train Like the Pros with an AI Basketball Shooting Coach.
+Live Shoot with Mo: realtime release feedback, chat that knows every shot, and progress tracking that stays with you.
 
-Find exactly why your shot is inconsistent, compare your mechanics to pro-level forms, and get drills to fix release timing, balance, elbow path, and follow-through.
+**Live Shoot** (homepage hero): Realtime feedback the moment you release. Talk to Mo, review every phase, and fix form in the gym.
 
-**Stats:** 1000+ shots tracked | 500+ players and coaches | 20+ NBA pros | 6 shot phases analyzed
+**Stats:** 2000+ shots tracked | 600+ players and coaches | Always with you
 
-## Fix your shooting form with AI video analysis
+## Live Shoot details
 
-Most shooters know something feels off but cannot pin down when it breaks down. Monona Coach breaks your motion into phases, flags where your form drifts from your best reps, and shows you the same angles pros use.
+Everything you get in a live session: realtime cues, Mo, and a full post-set review.
 
-### Improve consistency, not just similarity score
+- **Realtime release feedback:** Get coaching cues as soon as the ball leaves your hand.
+- **Talk to Mo:** Say "Hey Mo" or "Hey Monona", ask a question, and get an answer in realtime.
+- **Phase-by-phase replay:** Break every shot into phases and review what happened on each rep.
+- **Deficiency zoom:** Instant spot-on zoom into the form break that cost the shot.
+- **Energy breakdown:** See how power and energy move through your motion.
+- **Session review:** Wrap the workout with a clear summary of what improved and what to fix next.
 
-A single match percentage does not tell the full story. Monona tracks phase-by-phase drift across setup, release, and follow-through, then assigns drills so your next session fixes the real issue.
+## Mo remembers every shot and every improvement
+
+Mo has context for every shot you take, every improvement you make, and is always there to accompany your journey.
+
+- **Session memory:** Mo remembers what you worked on and how you shot.
+- **Personalized plans:** Guidance and plans stay tied to your real training history.
+- **Hey Mo / Hey Monona:** Talk to Mo during Live Shoot and get answers in realtime.
+
+### Meet Mo
+
+Our mascot Mo understands and tracks all your shots and data, then tailors personalized plans just for you.
+
+## Every progress is tracked
+
+Streaks, daily and weekly shot goals, live shots by day, and session history so nothing gets lost.
+
+- Shot goal rings and weekly counts
+- Live shots by day chart
+- Session history that stays with you
 
 ## Trusted by players and coaches
 
@@ -29,6 +52,52 @@ A single match percentage does not tell the full story. Monona tracks phase-by-p
 
 > Tried it on a few clips from my last pickup game and the elbow path feedback actually nailed a hitch I didn't even realize I had. The pro comparison overlay is super helpful for spotting small timing gaps.
 > — Burak, Player
+
+## Frequently asked questions
+
+### What is Live Shoot?
+
+Live Shoot is Monona Coach's realtime training mode. It gives feedback on each release as you shoot, lets you talk to Mo, and includes phase-by-phase replay, deficiency zoom, energy breakdown, and session review.
+
+### How do I talk to Mo?
+
+During Live Shoot, say "Hey Mo" or "Hey Monona", then ask your question. Mo answers in realtime and uses your shot data to give personalized guidance and plans.
+
+### Does Mo remember my sessions?
+
+Yes. Mo has context for every shot you take and every improvement you make, so advice and plans stay tied to your real training history.
+
+### Is Monona Coach free?
+
+Yes. Monona Coach is free to download on iOS, including Live Shoot, Mo chat, and progress tracking.
+
+### What do I need to record my shot?
+
+Use your iPhone to film from a side view with one shooter and one basketball in frame. A clear view of your full shooting motion from setup through follow-through gives the best results.
+
+### Where is pro player comparison?
+
+Pro form matching and NBA model comparison live on the Pro Comparison page: https://monona-sports.com/pro-comparison.html
+
+## Download
+
+Train with Live Shoot and Mo. Download Monona Coach free on iOS.
+
+- iOS: https://apps.apple.com/us/app/monona-coach/id6754575963
+- Android: Coming Soon
+
+**Support:** support@monona-sports.com
+
+
+---
+
+## https://monona-sports.com/pro-comparison.html
+
+# Pro Player Comparison | Monona Coach
+
+Compare your shooting form to 20+ NBA players, get phase-by-phase similarity, and train with pro-level analytics.
+
+**Stats:** 20+ NBA pros | 6 shot phases analyzed | Similarity scores and analytics
 
 ## Your AI basketball shooting coach toolkit
 
@@ -69,57 +138,30 @@ Players, parents, trainers, and AAU coaches who want clear answers on shooting m
 - **Trainers:** Back your coaching with phase breakdowns and pro comparisons.
 - **AAU coaches:** Show slow-motion breakdowns in practice and give every player a consistent standard.
 
-## Why use AI instead of guessing from slow-motion video?
-
-Slow-mo helps you see motion, but it is easy to miss timing shifts, angle changes, and session-to-session drift. Monona normalizes your joints, compares every phase to pro models, and surfaces repeatable metrics you can track over time.
-
-### AI basketball shooting coach vs shot tracker vs human coach
-
-| | Monona Coach (AI) | Shot tracker | Human coach |
-|---|-------------------|--------------|-------------|
-| Form mechanics | Phase-by-phase joint analysis | Make/miss counts only | Expert eye, subjective |
-| Pro comparison | 20+ NBA models | Not available | Depends on coach |
-| Drills | Personalized from analysis | Not available | Session-based |
-| Cost / access | Free, anytime on phone | Varies | Scheduled, paid |
-
 ## Frequently asked questions
-
-### What is an AI basketball shooting coach?
-
-An AI basketball shooting coach uses computer vision and machine learning to analyze your shooting form from video, compare it to professional players, and give personalized feedback on each phase of your shot.
-
-### How does Monona Coach analyze my shot?
-
-Record your shot from a side view with your phone. Monona Coach tracks body keypoints, breaks your motion into phases like setup and release, and compares your form to NBA player models with similarity scores and coaching tips.
-
-### Is Monona Coach free?
-
-Yes. Monona Coach is free to download on iOS. You can record shots, get AI analysis, pro comparisons, and personalized drills at no cost.
 
 ### Can I compare my form to NBA players?
 
 Yes. Monona Coach matches your shot to 20+ NBA players or lets you pick a model player. You get phase-by-phase comparison, similarity percentages, and visual replay side by side with pros.
 
-### What do I need to record my shot?
+### How does Monona Coach analyze my shot?
 
-Use your iPhone to film from a side view with one shooter and one basketball in frame. A clear view of your full shooting motion from setup through follow-through gives the best results.
+Record your shot from a side view with your phone. Monona Coach tracks body keypoints, breaks your motion into phases like setup and release, and compares your form to NBA player models with similarity scores and coaching tips.
 
-### Why use AI instead of guessing from slow-motion video?
+### Is Pro Comparison different from Live Shoot?
 
-Slow-motion alone is subjective and easy to misread. Monona tracks joint angles and timing across every shot phase, compares them to pro models, and gives repeatable metrics so you know what to fix session to session.
+Yes. Live Shoot is realtime in-gym coaching with Mo. Pro Comparison focuses on matching your recorded form to NBA models. Both are in the same free app. See Live Shoot: https://monona-sports.com/
 
-### How is an AI basketball shooting coach different from a shot tracker or human coach?
+### Is Monona Coach free?
 
-Shot trackers count makes and misses but not mechanics. Human coaches bring expertise but feedback varies by session. Monona analyzes form phase by phase, compares you to 20+ NBA players, and assigns personalized drills. It complements trackers and coaches rather than replacing them.
+Yes. Monona Coach is free to download on iOS. You can record shots, get AI analysis, pro comparisons, and personalized drills at no cost.
 
 ## Download
 
 Find what's breaking your shot and get drills to fix it. Download Monona Coach free on iOS.
 
 - iOS: https://apps.apple.com/us/app/monona-coach/id6754575963
-- Android: Coming Soon
-
-**Support:** support@monona-sports.com
+- Also see: [Live Shoot + Mo](https://monona-sports.com/)
 
 
 ---
