@@ -1,19 +1,19 @@
-# Monona Coach Website
+# Hoop Mo Website
 
-Marketing site for [Monona Coach](https://monona-sports.com), an AI basketball shooting coach with **Live Shoot**, **Mo**, and **Pro Comparison**.
+Marketing site for [Hoop Mo](https://monona-sports.com), an AI basketball shooting coach with **Live Shoot**, **Mo**, and **Pro Comparison**.
 
 **Live site:** https://monona-sports.com
 
 ## About the project
 
-Monona Coach helps players improve through realtime Live Shoot feedback, Mo (a companion that remembers every shot), progress tracking, and optional pro player comparison. This repository is the public-facing static site on GitHub Pages.
+Hoop Mo helps players improve through realtime Live Shoot feedback, Mo (a companion that remembers every shot), progress tracking, and optional pro player comparison. This repository is the public-facing static site on GitHub Pages.
 
 ## Pages
 
 | Page | Path | Description |
 |------|------|-------------|
 | Home (Live Shoot + Mo) | `index.html` | Hero Live Shoot demo, Mo chat, activity progress, FAQ, download |
-| Pro Comparison | `pro-comparison.html` | NBA form matching, analytics, drills, old promo video |
+| Pro Comparison | `pro-comparison.html` | NBA form matching, analytics, drills, promo video |
 | Book a demo | `book-demo.html` | Calendly scheduling embed |
 | Privacy Notice | `privacy.html` | App and website privacy policy |
 | Linktree | `linktree/index.html` | Social links and quick actions for bio pages |

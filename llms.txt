@@ -1,17 +1,17 @@
-# Monona Coach
+# Hoop Mo
 
-> Live Shoot with Mo: realtime release feedback, chat that knows every shot, and progress tracking that stays with you. Free AI basketball shooting coach on iOS.
+> Hoop Mo is an AI basketball shooting coach with Live Shoot realtime feedback, Mo chat that knows every shot, and progress tracking that stays with you. Free on iOS.
 
 ## Product
 
 - [Homepage - Live Shoot + Mo](https://monona-sports.com/): Realtime Live Shoot, Mo chat context, activity progress tracking.
 - [Pro Player Comparison](https://monona-sports.com/pro-comparison.html): Compare form to 20+ NBA players with similarity scores and analytics.
-- [Download on iOS](https://apps.apple.com/us/app/monona-coach/id6754575963): Free Monona Coach app on the Apple App Store.
+- [Download on iOS](https://apps.apple.com/us/app/monona-coach/id6754575963): Free Hoop Mo app on the Apple App Store.
 
 ## Site pages
 
 - [Book a demo](https://monona-sports.com/book-demo.html): Schedule a call to see the app in action.
-- [Privacy Notice](https://monona-sports.com/privacy.html): How Monona Coach collects and uses data.
+- [Privacy Notice](https://monona-sports.com/privacy.html): How Hoop Mo collects and uses data.
 - [Linktree](https://monona-sports.com/linktree/): Social links and quick actions for bio pages.
 
 ## Homepage sections
@@ -20,7 +20,7 @@
 - [Live Shoot details](https://monona-sports.com/#live-shoot): Realtime cues, Talk to Mo, phase replay, and session review.
 - [Mo](https://monona-sports.com/#mo): Chat companion with context for every shot and improvement.
 - [Progress](https://monona-sports.com/#progress): Activity tracking, streaks, goals, live shots by day.
-- [FAQ](https://monona-sports.com/#faq): Live Shoot and Mo questions.
+- [FAQ](https://monona-sports.com/#faq): Hoop Mo, Live Shoot, and Mo questions.
 - [Download](https://monona-sports.com/#download): Get the free iOS app.
 
 ## Contact and social

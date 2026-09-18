@@ -1,8 +1,8 @@
 ## https://monona-sports.com/
 
-# Monona Coach
+# Hoop Mo
 
-Live Shoot with Mo: realtime release feedback, chat that knows every shot, and progress tracking that stays with you.
+Hoop Mo is an AI basketball shooting coach with Live Shoot realtime feedback, Mo chat that knows every shot, and progress tracking that stays with you.
 
 **Live Shoot** (homepage hero): Realtime feedback the moment you release. Talk to Mo, review every phase, and fix form in the gym.
 
@@ -55,9 +55,13 @@ Streaks, daily and weekly shot goals, live shots by day, and session history so 
 
 ## Frequently asked questions
 
+### What is Hoop Mo?
+
+Hoop Mo is an AI basketball shooting coach with Live Shoot realtime feedback, Mo chat that remembers every shot, and progress tracking. Free on iOS.
+
 ### What is Live Shoot?
 
-Live Shoot is Monona Coach's realtime training mode. It gives feedback on each release as you shoot, lets you talk to Mo, and includes phase-by-phase replay, deficiency zoom, energy breakdown, and session review.
+Live Shoot is Hoop Mo's realtime training mode. It gives feedback on each release as you shoot, lets you talk to Mo, and includes phase-by-phase replay, deficiency zoom, energy breakdown, and session review.
 
 ### How do I talk to Mo?
 
@@ -67,9 +71,9 @@ During Live Shoot, say "Hey Mo" or "Hey Monona", then ask your question. Mo answ
 
 Yes. Mo has context for every shot you take and every improvement you make, so advice and plans stay tied to your real training history.
 
-### Is Monona Coach free?
+### Is Hoop Mo free?
 
-Yes. Monona Coach is free to download on iOS, including Live Shoot, Mo chat, and progress tracking.
+Yes. Hoop Mo is a free AI basketball shooting coach on iOS, including Live Shoot, Mo chat, and progress tracking.
 
 ### What do I need to record my shot?
 
@@ -81,7 +85,7 @@ Pro form matching and NBA model comparison live on the Pro Comparison page: http
 
 ## Download
 
-Train with Live Shoot and Mo. Download Monona Coach free on iOS.
+Train with Live Shoot and Mo. Download Hoop Mo free on iOS.
 
 - iOS: https://apps.apple.com/us/app/monona-coach/id6754575963
 - Android: Coming Soon
@@ -93,9 +97,9 @@ Train with Live Shoot and Mo. Download Monona Coach free on iOS.
 
 ## https://monona-sports.com/pro-comparison.html
 
-# Pro Player Comparison | Monona Coach
+# Pro Player Comparison | Hoop Mo
 
-Compare your shooting form to 20+ NBA players, get phase-by-phase similarity, and train with pro-level analytics.
+Hoop Mo is an AI basketball shooting coach that compares your form to 20+ NBA players with phase-by-phase similarity and pro-level analytics.
 
 **Stats:** 20+ NBA pros | 6 shot phases analyzed | Similarity scores and analytics
 
@@ -113,14 +117,14 @@ Diagnose inconsistency, compare mechanics to pros, and get drills for release ti
 
 ### Personalized Drills and Workout Plans
 
-Monona builds a daily workout plan from your shot analysis, not generic drills, but exercises targeting your specific form issues.
+Hoop Mo builds a daily workout plan from your shot analysis, not generic drills, but exercises targeting your specific form issues.
 
 - Your workout plan: a curated daily list based on what your analysis finds
 - Targeted categories: balance, flat arch, follow-through, hand placement, setpoint, and more
 - Track progress: completion ring shows how many drills you've finished today
 - Actionable drills: e.g. "Keep guide hand off the ball", "One-hand follow-through"
 
-## How Monona Coach Works
+## How Hoop Mo Works
 
 Four steps from recording to improvement.
 
@@ -142,23 +146,23 @@ Players, parents, trainers, and AAU coaches who want clear answers on shooting m
 
 ### Can I compare my form to NBA players?
 
-Yes. Monona Coach matches your shot to 20+ NBA players or lets you pick a model player. You get phase-by-phase comparison, similarity percentages, and visual replay side by side with pros.
+Yes. Hoop Mo matches your shot to 20+ NBA players or lets you pick a model player. You get phase-by-phase comparison, similarity percentages, and visual replay side by side with pros.
 
-### How does Monona Coach analyze my shot?
+### How does Hoop Mo analyze my shot?
 
-Record your shot from a side view with your phone. Monona Coach tracks body keypoints, breaks your motion into phases like setup and release, and compares your form to NBA player models with similarity scores and coaching tips.
+Record your shot from a side view with your phone. Hoop Mo tracks body keypoints, breaks your motion into phases like setup and release, and compares your form to NBA player models with similarity scores and coaching tips.
 
 ### Is Pro Comparison different from Live Shoot?
 
 Yes. Live Shoot is realtime in-gym coaching with Mo. Pro Comparison focuses on matching your recorded form to NBA models. Both are in the same free app. See Live Shoot: https://monona-sports.com/
 
-### Is Monona Coach free?
+### Is Hoop Mo free?
 
-Yes. Monona Coach is free to download on iOS. You can record shots, get AI analysis, pro comparisons, and personalized drills at no cost.
+Yes. Hoop Mo is a free AI basketball shooting coach on iOS. You can record shots, get AI analysis, pro comparisons, and personalized drills at no cost.
 
 ## Download
 
-Find what's breaking your shot and get drills to fix it. Download Monona Coach free on iOS.
+Find what's breaking your shot and get drills to fix it. Download Hoop Mo free on iOS.
 
 - iOS: https://apps.apple.com/us/app/monona-coach/id6754575963
 - Also see: [Live Shoot + Mo](https://monona-sports.com/)
@@ -170,7 +174,7 @@ Find what's breaking your shot and get drills to fix it. Download Monona Coach f
 
 # Schedule a call
 
-Book a demo with Monona Coach to see how the AI basketball shooting coach analyzes form, compares players to NBA pros, and delivers personalized drills.
+Book a demo with Hoop Mo, the AI basketball shooting coach. See Live Shoot, pro comparison, and personalized drills in action.
 
 Schedule a 30-minute call via Calendly: https://calendly.com/diego-monona-sports/30min
 
@@ -183,7 +187,7 @@ Schedule a 30-minute call via Calendly: https://calendly.com/diego-monona-sports
 **Last updated:** January 2026
 **Developed by:** Ti Wu and Hyuntaek Oh
 
-This Privacy Notice explains how we collect, use, store, and protect user information when you use our mobile application ("the App").
+This Privacy Notice explains how we collect, use, store, and protect user information when you use Hoop Mo, our AI basketball shooting coach mobile application ("the App").
 
 By using the App, you agree to the practices described in this Privacy Notice.
 
@@ -302,7 +306,9 @@ If you have questions or requests regarding this Privacy Notice:
 
 ## https://monona-sports.com/linktree/
 
-# Monona Coach
+# Hoop Mo
+
+Hoop Mo is an AI basketball shooting coach.
 
 **Tagline:** Achieve Your Dream Form Day 1
 
