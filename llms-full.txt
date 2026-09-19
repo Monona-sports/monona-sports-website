@@ -99,15 +99,15 @@ Train with Live Shoot and Mo. Download Hoop Mo free on iOS.
 
 # Pro Player Comparison | Hoop Mo
 
-Hoop Mo is an AI basketball shooting coach that compares your form to 20+ NBA players with phase-by-phase similarity and pro-level analytics.
+Hoop Mo is an AI basketball shooting coach that compares your form to 70+ NBA players with phase-by-phase similarity and pro-level analytics.
 
-**Stats:** 20+ NBA pros | 6 shot phases analyzed | Similarity scores and analytics
+**Stats:** 70+ NBA pros | 6 shot phases analyzed | Similarity scores and analytics
 
 ## Your AI basketball shooting coach toolkit
 
 Diagnose inconsistency, compare mechanics to pros, and get drills for release timing, balance, elbow path, and follow-through.
 
-- **20+ NBA Pros:** Choose your model player and study the form traits that make them elite.
+- **70+ NBA Pros:** Choose your model player and study the form traits that make them elite.
 - **Auto-Matched Style:** Get an instant similarity score and see how your shot compares phase by phase.
 - **Phase Breakdown:** Skeletal tracking and joint angles at setpoint, rising, release, and more.
 - **AI Coaching:** Personalized advice across every shot phase, clear and actionable with no jargon.
@@ -130,7 +130,7 @@ Four steps from recording to improvement.
 
 1. **Record Your Shot:** Film your shooting form from a side view using your smartphone camera.
 2. **AI Analysis:** Our AI processes your video, normalizes the data, and breaks down each phase of your shot.
-3. **Pro Comparison:** Your form is matched against 20+ professional players to find your best style fit.
+3. **Pro Comparison:** Your form is matched against 70+ professional players to find your best style fit.
 4. **Get Insights:** Review coaching advice, visual graphs, and replay to improve your game.
 
 ## Who it's for
@@ -146,7 +146,7 @@ Players, parents, trainers, and AAU coaches who want clear answers on shooting m
 
 ### Can I compare my form to NBA players?
 
-Yes. Hoop Mo matches your shot to 20+ NBA players or lets you pick a model player. You get phase-by-phase comparison, similarity percentages, and visual replay side by side with pros.
+Yes. Hoop Mo matches your shot to 70+ NBA players or lets you pick a model player. You get phase-by-phase comparison, similarity percentages, and visual replay side by side with pros.
 
 ### How does Hoop Mo analyze my shot?
 

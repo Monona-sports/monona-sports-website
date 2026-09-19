@@ -5,7 +5,7 @@
 ## Product
 
 - [Homepage - Live Shoot + Mo](https://monona-sports.com/): Realtime Live Shoot, Mo chat context, activity progress tracking.
-- [Pro Player Comparison](https://monona-sports.com/pro-comparison.html): Compare form to 20+ NBA players with similarity scores and analytics.
+- [Pro Player Comparison](https://monona-sports.com/pro-comparison.html): Compare form to 70+ NBA players with similarity scores and analytics.
 - [Download on iOS](https://apps.apple.com/us/app/monona-coach/id6754575963): Free Hoop Mo app on the Apple App Store.
 
 ## Site pages
