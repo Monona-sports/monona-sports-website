@@ -1,6 +1,6 @@
 # Hoop Mo Website
 
-Marketing site for [Hoop Mo](https://monona-sports.com), an AI basketball shooting coach with **Live Shoot**, **Mo**, and **Pro Comparison**.
+Marketing site for [Hoop Mo](https://monona-sports.com), an AI basketball shooting coach with **Live Shoot**, **Mo**, **Pro Comparison**, and a **Blog** of basketball technique articles.
 
 **Live site:** https://monona-sports.com
 
@@ -14,6 +14,8 @@ Hoop Mo helps players improve through realtime Live Shoot feedback, Mo (a compan
 |------|------|-------------|
 | Home (Live Shoot + Mo) | `index.html` | Hero Live Shoot demo, Mo chat, activity progress, FAQ, download |
 | Pro Comparison | `pro-comparison.html` | NBA form matching, analytics, drills, promo video |
+| Blog | `blog.html` | Listing of basketball technique articles |
+| Articles | `blog/*.html` | Release, elbow path, and follow-through guides |
 | Book a demo | `book-demo.html` | Calendly scheduling embed |
 | Privacy Notice | `privacy.html` | App and website privacy policy |
 | Linktree | `linktree/index.html` | Social links and quick actions for bio pages |
@@ -23,6 +25,8 @@ Hoop Mo helps players improve through realtime Live Shoot feedback, Mo (a compan
 ```
 ├── index.html              # Live Shoot + Mo homepage
 ├── pro-comparison.html     # Pro player comparison
+├── blog.html               # Blog listing
+├── blog/                   # Technique articles
 ├── book-demo.html
 ├── privacy.html
 ├── linktree/
