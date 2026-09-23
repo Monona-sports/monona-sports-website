@@ -6,7 +6,7 @@ Hoop Mo is an AI basketball shooting coach with Live Shoot realtime feedback, Mo
 
 **Live Shoot** (homepage hero): Realtime feedback the moment you release. Talk to Mo, review every phase, and fix form in the gym.
 
-**Stats:** 2000+ shots tracked | 600+ players and coaches | Always with you
+**Stats:** 3000+ shots analyzed | 800+ players and coaches | Always with you
 
 ## Live Shoot details
 
