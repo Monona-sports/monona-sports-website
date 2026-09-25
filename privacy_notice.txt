@@ -42,7 +42,10 @@ Training datasets are anonymized when used
 4. Data Storage & Retention
 Videos and analysis results are stored only as long as necessary to provide the service
 Users may delete their videos and data at any time
+Full account deletion is available in the app (see How to delete your account)
 Deleted data is permanently removed from active systems within a reasonable timeframe
+How to delete your account
+Users can delete their account and all associated data in the app by going to Profile → Settings → Delete account.
 5. Data Sharing
 We do not sell or rent personal data.
 We may share limited data only with:
@@ -58,7 +61,7 @@ Depending on your location, you may have the right to:
 Access your data
 Request correction or deletion
 Withdraw consent
-Requests can be made by contacting us directly.
+You can delete your account and all associated data in the app at any time via Profile → Settings → Delete account. If you need help, contact us at support@monona-sports.com.
 8. Security
 We take reasonable measures to protect user data, including:
 Encrypted data transmission
