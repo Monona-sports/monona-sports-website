@@ -6,7 +6,7 @@ Hoop Mo is an AI basketball shooting coach with Live Shoot realtime feedback, Mo
 
 **Live Shoot** (homepage hero): Realtime feedback the moment you release. Talk to Mo, review every phase, and fix form in the gym.
 
-**Stats:** 3000+ shots analyzed | 800+ players and coaches | Always with you
+**Stats:** 3000+ shots analyzed | 1000+ players and coaches | Always with you
 
 ## Live Shoot details
 
@@ -88,7 +88,7 @@ Pro form matching and NBA model comparison live on the Pro Comparison page: http
 Train with Live Shoot and Mo. Download Hoop Mo free on iOS.
 
 - iOS: https://apps.apple.com/us/app/hoop-mo/id6754575963
-- Android: Coming Soon
+- Android: Scheduled before end of October 2026
 
 **Support:** support@monona-sports.com
 
