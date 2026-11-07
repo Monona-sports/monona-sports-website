@@ -14,6 +14,7 @@ Hoop Mo helps players improve through realtime Live Shoot feedback, Mo (a compan
 |------|------|-------------|
 | Home (Live Shoot + Mo) | `index.html` | Hero Live Shoot demo, Mo chat, activity progress, FAQ, download |
 | Pro Comparison | `pro-comparison.html` | NBA form matching, analytics, drills, promo video |
+| Traditional Chinese | `zh/` | Full site mirror; auto-detect Chinese browsers |
 | Blog | `blog.html` | Listing of basketball technique articles |
 | Articles | `blog/*.html` | Release, elbow path, and follow-through guides |
 | Book a demo | `book-demo.html` | Calendly scheduling embed |
@@ -32,6 +33,8 @@ Hoop Mo helps players improve through realtime Live Shoot feedback, Mo (a compan
 ├── linktree/
 ├── styles.css
 ├── scripts.js
+├── language.js            # EN/zh detection and toggle
+├── zh/                     # Traditional Chinese pages
 ├── analytics.js
 ├── cookie-consent.js
 ├── images/                 # Logos and Mo mascot

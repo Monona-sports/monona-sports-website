@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/images/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="alternate" hreflang="en" href="https://monona-sports.com/team.html">
+    <link rel="alternate" hreflang="zh-Hant" href="https://monona-sports.com/zh/team.html">
+    <link rel="alternate" hreflang="x-default" href="https://monona-sports.com/team.html">
+    <script src="../analytics.js"></script>
+    <title>團隊 | Hoop Mo</title>
+    <meta name="application-name" content="Hoop Mo">
+    <meta name="description" content="認識 Hoop Mo 幕後團隊。這款 AI 籃球投籃教練幫助球員分析姿勢，像 NBA 職業球員一樣訓練。">
+    <link rel="canonical" href="https://monona-sports.com/zh/team.html">
+    <meta property="og:site_name" content="Hoop Mo">
+    <meta property="og:title" content="團隊 | Hoop Mo">
+    <meta property="og:description" content="認識 Hoop Mo 幕後團隊。這款 AI 籃球投籃教練幫助球員分析姿勢，像 NBA 職業球員一樣訓練。">
+    <meta property="og:url" content="https://monona-sports.com/zh/team.html">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://monona-sports.com/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="團隊 | Hoop Mo">
+    <meta name="twitter:description" content="認識 Hoop Mo 幕後團隊。這款 AI 籃球投籃教練幫助球員分析姿勢，像 NBA 職業球員一樣訓練。">
+    <meta name="twitter:image" content="https://monona-sports.com/images/og-image.png">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        :root {
+            --bg-dark: #0a1628;
+            --bg-mid: #0d2137;
+            --bg-card: rgba(255, 255, 255, 0.06);
+            --text-main: #e0e0e0;
+            --text-strong: #ffffff;
+            --link: #9bc1ff;
+            --border: rgba(255, 255, 255, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(180deg, var(--bg-mid) 0%, var(--bg-dark) 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: min(100%, 980px);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .team-header {
+            padding: 48px 0 24px;
+            text-align: center;
+        }
+
+        .team-header h1 {
+            color: var(--text-strong);
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-bottom: 12px;
+            letter-spacing: 0.4px;
+        }
+
+        .team-header p {
+            font-size: 1.05rem;
+            opacity: 0.9;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            padding: 16px 0 32px;
+        }
+
+        .team-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            min-height: 170px;
+        }
+
+        .member-name {
+            color: var(--text-strong);
+            font-size: 1.55rem;
+            margin-bottom: 8px;
+            line-height: 1.25;
+        }
+
+        .member-role,
+        .member-major {
+            font-size: 1.45rem;
+            line-height: 1.25;
+        }
+
+        .back-home {
+            display: block;
+            width: fit-content;
+            margin: 6px auto 48px;
+            color: var(--link);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.02rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s ease;
+        }
+
+        .back-home:hover {
+            border-color: var(--link);
+        }
+
+        @media (max-width: 768px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .team-header {
+                padding-top: 36px;
+            }
+
+            .team-card {
+                padding: 20px;
+                min-height: 140px;
+            }
+
+            .member-name {
+                font-size: 1.35rem;
+            }
+
+            .member-role,
+            .member-major {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header class="team-header">
+            <h1>團隊</h1>
+        </header>
+
+        <section class="team-grid" aria-label="團隊成員">
+            <article class="team-card">
+                <h2 class="member-name">Ti Wu (Diego)</h2>
+                <p class="member-role">共同創辦人</p>
+                <a href="https://www.linkedin.com/in/diego-wu-45bb40222/" target="_blank" style="display: inline-block; width: 100%; margin-top: 12px; color: var(--link); text-decoration: none; font-size: 1.1rem; font-weight: 600;">LinkedIn 個人檔案 ↗</a>
+            </article>
+
+            <article class="team-card">
+                <h2 class="member-name">Raphael (Hyuntaek) Oh</h2>
+                <p class="member-role">共同創辦人</p>
+                <a href="https://www.linkedin.com/in/raphael-oh-3155b1332/" target="_blank" style="display: inline-block; width: 100%; margin-top: 12px; color: var(--link); text-decoration: none; font-size: 1.1rem; font-weight: 600;">LinkedIn 個人檔案 ↗</a>
+            </article>
+        </section>
+
+        <a class="back-home" href="index.html">返回首頁</a>
+    </main>
+    <script src="../cookie-consent.js"></script>
+    <script src="../language.js"></script>
+</body>
+</html>

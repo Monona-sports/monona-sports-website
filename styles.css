@@ -60,6 +60,33 @@ body {
     gap: 0.85rem;
 }
 
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-left: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.lang-switch a {
+    color: var(--text-main);
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+.lang-switch a:hover,
+.lang-switch a.is-active {
+    color: var(--accent);
+    opacity: 1;
+}
+
+.lang-switch .lang-sep {
+    color: rgba(255, 255, 255, 0.35);
+    user-select: none;
+}
+
+
 .nav-link {
     color: var(--text-main);
     text-decoration: none;

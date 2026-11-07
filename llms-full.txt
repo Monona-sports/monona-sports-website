@@ -372,3 +372,27 @@ Hoop Mo is an AI basketball shooting coach.
 - Download App (iOS): https://apps.apple.com/us/app/hoop-mo/id6754575963
 - Coffee chat (book a demo): https://monona-sports.com/book-demo.html
 - Contact: support@monona-sports.com
+
+---
+
+## https://monona-sports.com/zh/
+
+# Hoop Mo（繁體中文）
+
+Hoop Mo 是 AI 籃球投籃教練，提供 Live Shoot 即時回饋、Mo 對話，以及進度追蹤。
+
+瀏覽器語言為中文時，網站會導向繁體中文版本。Live Shoot 宣傳影片與英文版相同；職業球員比對頁使用 `app-promo-cn.mp4`。
+
+## 主要頁面
+
+- 首頁: https://monona-sports.com/zh/
+- 職業球員比對: https://monona-sports.com/zh/pro-comparison.html
+- 部落格: https://monona-sports.com/zh/blog.html
+- 隱私權: https://monona-sports.com/zh/privacy.html
+- Linktree: https://monona-sports.com/zh/linktree/
+
+## 台灣社群
+
+- Instagram: https://www.instagram.com/tryhoopmo_tw/
+- YouTube: https://www.youtube.com/@HoopMo%E5%8F%B0%E7%81%A3
+

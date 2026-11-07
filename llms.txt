@@ -7,6 +7,7 @@
 - [Homepage - Live Shoot + Mo](https://monona-sports.com/): Realtime Live Shoot, Mo chat context, activity progress tracking.
 - [Pro Player Comparison](https://monona-sports.com/pro-comparison.html): Compare form to 70+ NBA players with similarity scores and analytics.
 - [Download on iOS](https://apps.apple.com/us/app/hoop-mo/id6754575963): Free Hoop Mo app on the Apple App Store.
+- Android: Scheduled to release before the end of October 2026.
 
 ## Site pages
 
@@ -29,6 +30,13 @@
 - [Progress](https://monona-sports.com/#progress): Activity tracking, streaks, goals, live shots by day.
 - [FAQ](https://monona-sports.com/#faq): Hoop Mo, Live Shoot, and Mo questions.
 - [Download](https://monona-sports.com/#download): Get the free iOS app.
+
+
+## Traditional Chinese
+
+- [繁體中文首頁](https://monona-sports.com/zh/): Hoop Mo 繁體中文網站
+- [職業球員比對](https://monona-sports.com/zh/pro-comparison.html): 繁體中文職業球員比對頁
+- [繁中 Linktree](https://monona-sports.com/zh/linktree/): 台灣 Instagram 與 YouTube
 
 ## Contact and social
 
