@@ -11,16 +11,9 @@
 
 ## Site pages
 
-- [Blog](https://monona-sports.com/blog.html): Basketball shooting technique guides (release, elbow path, follow-through).
 - [Book a demo](https://monona-sports.com/book-demo.html): Schedule a call to see the app in action.
 - [Privacy Notice](https://monona-sports.com/privacy.html): How Hoop Mo collects and uses data.
 - [Linktree](https://monona-sports.com/linktree/): Social links and quick actions for bio pages.
-
-## Blog articles
-
-- [Fix Your Shooting Release](https://monona-sports.com/blog/fix-your-shooting-release.html): Fingertip finish, timing, and pocket-to-release path.
-- [Elbow Path and Alignment](https://monona-sports.com/blog/elbow-path-and-alignment.html): Keep the elbow under the ball on a straight path.
-- [Follow-Through Consistency](https://monona-sports.com/blog/follow-through-consistency.html): Hold the finish for soft arc and fewer short misses.
 
 ## Homepage sections
 
