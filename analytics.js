@@ -90,6 +90,12 @@ const CONSENT_KEY = 'monona_cookie_consent';
                 return;
             }
 
+            if (target.matches('a.download-btn[href*="play.google.com"]') ||
+                (target.matches('a[href*="play.google.com"]') && target.closest('.socials, .download-buttons, .footer-socials'))) {
+                trackEvent('app_download_click', { platform: 'android', page_path: pagePath });
+                return;
+            }
+
             if (target.matches('.contact-btn')) {
                 trackEvent('contact_click', { method: 'email', page_path: pagePath });
                 return;

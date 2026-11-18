@@ -85,10 +85,10 @@ Pro form matching and NBA model comparison live on the Pro Comparison page: http
 
 ## Download
 
-Train with Live Shoot and Mo. Download Hoop Mo free on iOS.
+Train with Live Shoot and Mo. Download Hoop Mo free on iOS and Android.
 
 - iOS: https://apps.apple.com/us/app/hoop-mo/id6754575963
-- Android: Scheduled before end of October 2026
+- Android: https://play.google.com/store/apps/details?id=com.hoopmo.basketball&pcampaignid=web_share
 
 **Support:** support@monona-sports.com
 
